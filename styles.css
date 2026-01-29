@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/Images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #19a1ae;
+}
+
+.card_container {
+    width: 32.6rem;
+    height: 37.4rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.top_cover {
+    position: relative;
+    height: 14.8rem;
+    width: 32.6rem;
+    border-radius: 2rem 2rem 0 0;
+    background: linear-gradient(
+        180deg,
+        rgba(9, 137, 180, 1) 0%,
+        rgba(83, 255, 238, 1) 85%
+    );
+}
+
+.bubble_cover {
+    width: fit-content;
+    border-radius: 2rem;
+}
+
+.photo_container {
+    bottom: -4.5rem;
+    left: 35%;
+    position: absolute;
+    background-color: white;
+    padding: 0.4rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.profile_photo {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.middle_container {
+    margin-top: 5rem;
+    flex-direction: column;
+    display: flex;
+    height: 9rem;
+    width: 32.6rem;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    border-bottom: 0.1rem solid gray;
+}
+
+.full_name {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.age {
+    font-size: 2rem;
+    color: gray;
+}
+
+.location {
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+    color: gray;
+    font-size: 2.5rem;
+}
+
+.bottom_container {
+    height: 10rem;
+    width: 32.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row {
+    font-size: 1.5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 4.4rem;
+    width: 7rem;
+}
+
+.info_number {
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+}
+
+.info_text {
+    font-size: 1.2rem;
+    color: gray;
+}
